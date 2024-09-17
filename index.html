@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Towards Global Localization using Multi-Modal Object-Instance Re-Identification</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -56,28 +56,31 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Aneesh Chavan</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Aneesh Chavan</a><sup>*1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Vaibhav Agrawal</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Vaibhav Agrawal</a><sup>*1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Vineeth Bhat</a><sup>†</sup>,
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Vineeth Bhat</a><sup>†1</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Sarthak Chittawar</a><sup>†</sup>,
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Sarthak Chittawar</a><sup>†1</sup>,
                   </span>
                 <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Siddharth Srivastava,</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Siddharth Srivastava<sup>3</sup>,</a>
                   </span>
               <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Chetan Arora,</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Chetan Arora<sup>2</sup>,</a>
                   </span>
               <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">K Madhava Krishna</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">K Madhava Krishna<sup>1</sup></a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block"><small><br><sup>1</sup>Robotics Research Centre, IIIT Hyderabad</small></span>
+                    <span class="author-block"><small><br><sup>2</sup>IIT Delhi</small></span>
+                    <span class="author-block"><small><br><sup>3</sup>Typeface Inc.</small></span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                     <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Equal Contribution</small></span>
                   </div>
@@ -108,7 +111,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/instance-based-loc/instance-based-loc" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -161,7 +164,27 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Re-identification (ReID) is a critical challenge
+in computer vision, predominantly studied in the context of
+pedestrians and vehicles. However, robust object-instance ReID,
+which has significant implications for tasks such as autonomous
+exploration, long-term perception, and scene understanding,
+remains underexplored. In this work, we address this gap by
+proposing a novel dual-path object-instance re-identification
+transformer architecture that integrates multimodal RGB and
+depth information. By leveraging depth data, we demonstrate
+improvements in ReID across scenes that are cluttered or
+have varying illumination conditions. Additionally, we develop
+a ReID-based localization framework that enables accurate
+camera localization and pose identification across different
+viewpoints. We validate our methods using two custom-built
+RGB-D datasets, as well as multiple sequences from the open-
+source TUM RGB-D datasets. Our approach demonstrates
+significant improvements in both object instance ReID (mAP
+of 75.18) and localization accuracy (success rate of 83% on
+TUM-RGBD), highlighting the essential role of object ReID in
+advancing robotic perception. Our models, frameworks, and
+datasets have been made publicly available.
           </p>
         </div>
       </div>
